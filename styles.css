@@ -1,0 +1,166 @@
+/* companylogo imgage - https://www.seekpng.com/png/detail/9-99172_alto-saxophone-comments-saxophone-icon.png*/
+
+/* fire image - https://png.pngtree.com/png-vector/20201213/ourlarge/pngtree-fire-logo-icon-template-png-image_2556850.jpg */
+
+/* fast shipping image - https://www.nicepng.com/png/detail/366-3668553_next-day-icon-icon-delivery-transparent-orange.png */
+
+/* quality assurance image - https://icon-library.com/images/quality-assurance-icon/quality-assurance-icon-19.jpg */
+
+body { 
+    background-color: #eeeeee;
+    margin: 0px;
+}
+a { 
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    position: fixed;
+    width: 100%;
+}
+
+.logo-name { 
+    display: flex;
+    align-items: center;
+}
+
+#header-img { 
+    width: 50px;
+    padding: 15px 15px 15px 40px;
+}
+
+nav a { 
+    padding: 15px 60px 15px 60px;
+}
+
+#form { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+#email { 
+    width: 300px;
+    font-size: 1.2rem;
+}
+
+.submit {
+    padding-top: 20px;
+    font-size: 1.3rem;  
+}
+
+
+.features .feature {
+    display: flex;
+}
+
+.features .feature img { 
+    width: 100px;
+    padding-right: 70px;
+}
+
+
+.features .feature .feature-info { 
+    display: flex;
+    flex-direction: column;
+}
+
+.video { 
+    padding-top: 50px;
+}
+
+
+/* pricing section */
+
+.pricing { 
+    display: flex;
+    margin-top: 60px;
+}
+
+.pricing .single-pricing { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.pricing .single-pricing .level { 
+    width: 100%;
+    background-color: rgb(221, 221, 221)
+}
+
+.pricing .single-pricing .select-button { 
+    padding: 5px 10px 5px 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px grey;
+
+}
+
+
+/* footer */
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(221, 221, 221);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .footer-links a { 
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* media query */
+
+@media (max-width: 700px) { 
+
+/* for header elements */
+    nav a { 
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 5px;;
+    }
+
+    /* for pricing */
+
+    .pricing { 
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .pricing .single-pricing { 
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
